@@ -638,7 +638,7 @@ footer hr {
 /* contact page css end */
 /* Responsive */
 
-@media (width < 860px) {
+/* @media (width < 860px) {
   .nav {
     background: rgba(255, 255, 255, 0.5);
   }
@@ -679,9 +679,9 @@ footer hr {
   .foooter-col {
     flex-basis: 100%;
   }
-}
+} */
 
-@media (width < 600px) {
+@media (width < 812px) {
   /* .logo a{
         color: #068a1f;
     } */
