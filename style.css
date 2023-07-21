@@ -638,7 +638,7 @@ footer hr {
 /* contact page css end */
 /* Responsive */
 
-@media (width < 860px) {
+@media screen and (max-width: 860px) {
   .nav {
     background: rgba(255, 255, 255, 0.5);
   }
@@ -681,7 +681,7 @@ footer hr {
   }
 }
 
-@media (width < 600px) {
+@media screen and (max-width: 600px) {
   /* .logo a{
         color: #068a1f;
     } */
