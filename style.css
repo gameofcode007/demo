@@ -638,7 +638,7 @@ footer hr {
 /* contact page css end */
 /* Responsive */
 
-/* @media (width < 860px) {
+@media (width < 860px) {
   .nav {
     background: rgba(255, 255, 255, 0.5);
   }
@@ -679,40 +679,9 @@ footer hr {
   .foooter-col {
     flex-basis: 100%;
   }
-} */
+}
 
-@media (width < 812px) {
-    .nav {
-    background: rgba(255, 255, 255, 0.5);
-  }
-  .menu-items {
-    position: fixed;
-    top: 0;
-    width: 260px;
-    background-color: #fff;
-    height: 100%;
-    left: -100%;
-    padding: 50px 30px 30px;
-    flex-direction: column;
-    transition: all 0.5s;
-  }
-  .showMenu .menu-items {
-    left: 0;
-    transition: all 0.5s;
-  }
-  .menu-items a {
-    color: #333;
-  }
-  #menu-toggle {
-    display: flex;
-    width: 20px;
-    cursor: pointer;
-  }
-  .menu-items #menu-toggle {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
+@media (width < 600px) {
   /* .logo a{
         color: #068a1f;
     } */
