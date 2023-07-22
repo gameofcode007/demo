@@ -76,13 +76,25 @@ a {
   gap: 30px;
   justify-content: space-between;
 }
+
+
 /* iphone only */
 .feature-text a {
   color: inherit;
   font-weight: 300;
 }
-
+.about-col p span a {
+  color: inherit;
+}
+.contact-col h5 a {
+  color: inherit;
+}
+.iron-dec p a {
+  color: inherit;
+}
 /* iphone only end */
+
+
 .hero .row h2,
 .hero .row p {
   color: #fff;
