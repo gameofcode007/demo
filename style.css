@@ -85,12 +85,16 @@ a {
 }
 .about-col p span a {
   color: inherit;
+  border: none;
+  padding: 0;
 }
 .contact-col h5 a {
   color: inherit;
 }
 .iron-dec p a {
   color: inherit;
+  border: none;
+  padding: 0;
 }
 /* iphone only end */
 
